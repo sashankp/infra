@@ -1,7 +1,7 @@
 [
   {
     "ParameterKey": "ImageID",
-    "ParameterValue": "ami-6f68cf0f"
+    "ParameterValue": "ami-b63769a1"
   }, 
   {
     "ParameterKey": "InstanceType",
@@ -9,14 +9,14 @@
   },
    {
     "ParameterKey": "KeyName",
-    "ParameterValue": "formac"
+    "ParameterValue": "formac1"
    },
   {
      "ParameterKey": "SubnetId",
-    "ParameterValue": "subnet-9b3ea0fc"
+    "ParameterValue": "subnet-fe7b47a5"
   },
   {
     "ParameterKey": "InstanceSecurityGroup",
-    "ParameterValue": "sg-016a7779"
+    "ParameterValue": "sg-df940ba0"
   }
 ]
