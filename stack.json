@@ -60,7 +60,7 @@
 					"Fn::Base64": {
 						"Fn::Join": ["", [
 							"#!/bin/bash -v\n",
-							"sed -i s#Defaults.*requiretty#Defaults\ \!requiretty#g /etc/sudoers\n",
+							"sed -i s#Defaults.*requiretty#Defaults !requiretty#g /etc/sudoers\n",
 							"cd /tmp/\n",
 							"yum install -y wget\n",
 							"wget http://54.87.172.110/chef-12.19.36-1.el7.x86_64.rpm\n",
