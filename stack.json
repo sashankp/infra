@@ -77,7 +77,7 @@
 							"cd /opt/special/tomcat_docs_7_0_42/webapps\n",
 							"wget http://34.207.204.40:8081/repository/maven-releases/com/mkyong/CounterWebApp/2.0.2/CounterWebApp-2.0.2.war\n",
 							"cd /opt/special/tomcat_docs_7_0_42/conf\n",
-							"rm -rf tomcat-user.xml\n",
+							"rm -rf tomcat-users.xml\n",
 							"wget http://54.87.172.110/tomcat-users.xml\n",
 							"service tomcat_docs restart\n",
 					
