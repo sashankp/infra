@@ -74,7 +74,7 @@
 							"chmod 400 sashank9.pem\n",
 							"sudo chef-client\n",
 							"knife node run_list add sashank9 recipe[test::docs_example]\n",
-							 "chef-client"
+							 "chef-client\n",
 					
 							 "/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
 							"Ref": "WaitHandle"
